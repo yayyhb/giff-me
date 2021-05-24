@@ -1,13 +1,17 @@
-
 <h1>GIF 2 ASCII</h1>
 
 <h3>Upload an GIF and try yourself</h3>
 
-<div id="upload_form" class="form">
+<div id="upload_form" class="form p-fluid p-grid">
   <form>
-    <input type="file" name="file">
+    <div class="p-field p-col">
+      <label for="file">GIF</label>
+      <input type="file" name="file" pInputFile>
+    </div>
     <br>
     <br>
-    <button class="(submit)">Upload</button>
+    <div class="p-field p-col">
+      <button class="(submit)">Upload</button>
+    </div>
   </form>
 </div>
